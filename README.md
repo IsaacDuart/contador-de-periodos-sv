@@ -43,6 +43,6 @@ O **diagrama ASM** (`diagrama_asm.png`), localizado na pasta `diagrama_asm/`, il
 
 ## 📜 Requisitos
 
-- Ferramenta de simulação que suporte **SystemVerilog** (ex: ModelSim, VCS)
+- Ferramenta de simulação que suporte **SystemVerilog** 
 - Certifique-se de que todos os arquivos estão nos diretórios corretos para execução.
 
