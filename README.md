@@ -10,10 +10,10 @@ Este projeto implementa um **contador de período** que mede o tempo em milisseg
 
 - **src/**: Contém o código fonte e o testbench
   - `contador_de_periodos.sv`: Código do contador de períodos
-  - `tb_contador_de_periodos.sv`: Testbench para validação do contador
+  - `testbench_contador_de_periodos.sv`: Testbench para validação do contador
 
 - **vetores_teste/**: Contém o arquivo de vetores de teste
-  - `valores_esperados.txt`: Arquivo com valores esperados para os testes
+  - `testvectors.txt`: Arquivo com valores esperados para os testes
 
 - **diagrama_asm/**: Contém o diagrama ASM
   - `diagrama_asm.png`: Diagrama ASM do contador de períodos
@@ -30,7 +30,7 @@ O módulo **contador_de_periodos** realiza a contagem do intervalo de tempo entr
 
 ## 🧪 Testbench
 
-O **testbench** (`tb_contador_de_periodos.sv`) valida o funcionamento do contador comparando os resultados gerados com os valores esperados, que estão no arquivo `valores_esperados.txt`.
+O **testbench** (`testbench_contador_de_periodos.sv`) valida o funcionamento do contador comparando os resultados gerados com os valores esperados, que estão no arquivo `testvectors.txt`.
 
 ### Funcionamento:
 
